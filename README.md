@@ -5,6 +5,12 @@ link in the Ruby on Rails weblog to a post which talked about adding
 breadcrumbs to your Rails application. I've been doing this with helpers, but
 as the post says this is "Easy and flexible". So I've created the plugin.
 
+## Installing
+
+Add to your `Gemfile`:
+
+    gem 'breadcrumbs', :git => 'https://github.com/fesplugas/rails-breadcrumbs.git'
+
 ## Usage
 
 On your `app/controllers/application.rb`:
