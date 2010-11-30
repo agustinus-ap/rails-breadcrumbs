@@ -46,8 +46,8 @@ On your `app/controllers/categories_controller.rb`:
 
 On your `app/views/layouts/application.html.erb`:
 
-  <%= breadcrumbs %>
-  <%= breadcrumbs("=>") %> <!-- You can define the separator you want -->
+    <%= breadcrumbs %>
+    <%= breadcrumbs("=>") %> <!-- You can define the separator you want -->
 
 ## Acknowledgments
 
