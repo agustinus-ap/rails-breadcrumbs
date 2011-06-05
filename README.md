@@ -1,4 +1,4 @@
-# Breadcrumbs
+# Rails Breadcrumbs
 
 A nice way to add breadcrumbs to your application. Antonio Cangiano posted a
 link in the Ruby on Rails weblog to a post which talked about adding
@@ -9,7 +9,8 @@ as the post says this is "Easy and flexible". So I've created the plugin.
 
 Add to your `Gemfile`:
 
-    gem 'breadcrumbs', :git => 'https://github.com/fesplugas/rails-breadcrumbs.git'
+    gem 'rails-breadcrumbs'
+    # gem 'rails-breadcrumbs', :git => 'https://github.com/fesplugas/rails-breadcrumbs.git'
 
 ## Usage
 
@@ -55,4 +56,4 @@ On your `app/views/layouts/application.html.erb`:
 - Original code by: Francesc Esplugas Marti
 - Updated Syntax by Greg Bell: http://github.com/gregbell/simplified_breadcrumbs/tree/master
 
-Copyright (c) 2008-2010 Francesc Esplugas Marti, released under the MIT license
+Copyright (c) 2008-2011 Francesc Esplugas Marti, released under the MIT license
